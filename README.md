@@ -1,20 +1,20 @@
-# fetchUrl
+# fetch-promise
 
 > Fetch URL contents By Promise
 
 ## Install
 
 ```
-$ npm install --save fetchUrl
+$ npm install --save fetch-promise
 ```
 
 
 ## Usage
 
 ```js
-var fetchUrl = require('fetchUrl');
+var fetchUrl = require('fetch-promise');
 
-fetchUrl('https://www.npmjs.com/package/fetchUrl').then(
+fetchUrl('https://www.npmjs.com/package/fetch-promise').then(
   result => {
     const { res, buf } = result;
     console.log(res, buf);

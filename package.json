@@ -1,10 +1,10 @@
 {
-  "name": "fetchUrl",
+  "name": "fetch-promise",
   "version": "1.0.0",
   "description": "Fetch URL contents By Promise",
   "main": "index.js",
   "scripts": {
-    "test": "node test"
+    "test": "node --harmony_destructuring test"
   },
   "author": {
     "name": "wzbg",
@@ -13,12 +13,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wzbg/fetchUrl"
+    "url": "https://github.com/wzbg/fetch-promise"
   },
   "bugs": {
-    "url": "https://github.com/wzbg/fetchUrl/issues"
+    "url": "https://github.com/wzbg/fetch-promise/issues"
   },
-  "homepage": "https://github.com/wzbg/fetchUrl#readme",
+  "homepage": "https://github.com/wzbg/fetch-promise#readme",
   "keywords": [
     "fetch",
     "url",
