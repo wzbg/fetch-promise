@@ -1,36 +1,3 @@
-# fetchUrl
-
-> Fetch URL contents By Promise
-
-## Install
-
-```
-$ npm install --save fetchUrl
-```
-
-
-## Usage
-
-```js
-var fetchUrl = require('fetchUrl');
-
-fetchUrl('https://www.npmjs.com/package/fetchUrl').then(
-  result => {
-    const { res, buf } = result;
-    console.log(res, buf);
-  },
-  err => console.error(err)
-);
-```
-
-
-## Related
-
-- [`fetch`](https://www.npmjs.com/package/fetch) - Fetch URL contents.
-
-
-## License
-
 The MIT License (MIT)
 
 Copyright (c) 2015 
@@ -52,3 +19,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+

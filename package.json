@@ -1,0 +1,34 @@
+{
+  "name": "fetchUrl",
+  "version": "1.0.0",
+  "description": "Fetch URL contents By Promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "author": {
+    "name": "wzbg",
+    "email": "z3530515@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wzbg/fetchUrl"
+  },
+  "bugs": {
+    "url": "https://github.com/wzbg/fetchUrl/issues"
+  },
+  "homepage": "https://github.com/wzbg/fetchUrl#readme",
+  "keywords": [
+    "fetch",
+    "url",
+    "content",
+    "promise",
+    "async",
+    "await",
+    "es7"
+  ],
+  "dependencies": {
+    "fetch": "^0.3.6"
+  }
+}
