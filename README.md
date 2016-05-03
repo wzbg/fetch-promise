@@ -12,7 +12,7 @@ $ npm install --save fetch-promise
 ## Usage
 
 ```js
-var fetchUrl = require('fetch-promise');
+const fetchUrl = require('fetch-promise');
 
 fetchUrl('https://www.npmjs.com/package/fetch-promise').then(
   result => {

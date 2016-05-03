@@ -1,4 +1,4 @@
-var fetchUrl = require('./index');
+const fetchUrl = require('./index');
 
 fetchUrl('https://www.npmjs.com/package/fetch-promise').then(
   result => {
